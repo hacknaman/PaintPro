@@ -1,0 +1,169 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Exit",                        ID_FILE_EXIT
+    END
+    POPUP "Primitive"
+    BEGIN
+        MENUITEM "Line",                        ID_PRIMITIVE_LINE
+        MENUITEM "Rectangle",                   ID_PRIMITIVE_RECTANGLE
+        MENUITEM "Ellipse",                     ID_PRIMITIVE_ELLIPSE
+        MENUITEM "Cube",                        ID_PRIMITIVE_CUBE
+    END
+    POPUP "Pen Color"
+    BEGIN
+        MENUITEM "Black",                       ID_PENCOLOR_BLACK
+        MENUITEM "White",                       ID_PENCOLOR_WHITE
+        MENUITEM "Red",                         ID_PENCOLOR_RED
+        MENUITEM "Green",                       ID_PENCOLOR_GREEN
+        MENUITEM "Blue",                        ID_PENCOLOR_BLUE
+        MENUITEM "Yellow",                      ID_PENCOLOR_YELLOW
+    END
+    POPUP "Brush Color"
+    BEGIN
+        MENUITEM "Black",                       ID_BRUSHCOLOR_BLACK
+        MENUITEM "White",                       ID_BRUSHCOLOR_WHITE
+        MENUITEM "Red",                         ID_BRUSHCOLOR_RED
+        MENUITEM "Green",                       ID_BRUSHCOLOR_GREEN
+        MENUITEM "Blue",                        ID_BRUSHCOLOR_BLUE
+        MENUITEM "Yellow",                      ID_BRUSHCOLOR_YELLOW
+    END
+    POPUP "Pen Style "
+    BEGIN
+        MENUITEM "Solid",                       ID_PENSTYLE_SOLID
+        MENUITEM "Dotted",                      ID_PENSTYLE_DOTTED
+        MENUITEM "Dashed",                      ID_PENSTYLE_DASHED
+    END
+    POPUP "Brush Style"
+    BEGIN
+        MENUITEM "Solid",                       ID_BRUSHSTYLE_SOLID
+        MENUITEM "Null",                        ID_BRUSHSTYLE_NULL
+        MENUITEM "Diagonal",                    ID_BRUSHSTYLE_DIAGONAL
+        MENUITEM "Cross",                       ID_BRUSHSTYLE_CROSS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 258, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Naman Gupta"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Hello This is  paint program created by NAMAN GUPTA",IDC_STATIC,150,32,62,33
+    PUSHBUTTON      "OK",IDOK,149,84,63,15
+    CONTROL         105,IDC_STATIC,"Static",SS_BITMAP,19,20,100,92
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+//IDB_BITMAP1             BITMAP                  "C:\\Users\\Naman.Naman-PC\\Desktop\\f18.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
